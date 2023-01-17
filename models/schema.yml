@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: three_sixties
+    description: "Three Sixties"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
